@@ -13,7 +13,7 @@
 // })
 
 
- $(".content").load("/post/noticia/teste1");
+ $(".content").load("https://github.com/brunovmc/JStextreader/blob/master/post/noticia/teste1");
 
 
 
