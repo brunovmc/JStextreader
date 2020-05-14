@@ -19,10 +19,20 @@ $.ajax({
   }
 });
 
- $(".content").load("https://github.com/brunovmc/JStextreader/blob/master/post/noticia/teste1");
+ // $(".content").load("https://github.com/brunovmc/JStextreader/blob/master/post/noticia/teste1");
 
 
+ async function loadFileAndPrintToConsole(url) {
+   try {
+     const response = await fetch(url);
+     const data = await response.text();
+     console.log(data);
+   } catch (err) {
+     console.error(err);
+   }
+ }
 
+ loadFileAndPrintToConsole('https://github.com/brunovmc/JStextreader/blob/master/post/noticia/teste1');
 //
 //
 // function printFile(File) {
