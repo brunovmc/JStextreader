@@ -1,3 +1,5 @@
+// new File(18, { type: "post/noticia/teste1"});
+//
 // document.getElementById('inputfile')
 //     .addEventListener('change', function() {
 //
@@ -7,14 +9,14 @@
 //                 .textContent=fr.result;
 //     }
 //
-//     fr.readAsText(this.files[0]);
+//     readAsText(File);
 // })
 
 
-$(".content").load("~/post/noticia/teste1");
+ $(".content").load("/post/noticia/teste1");
 
 
-// new File(100, "post/noticia/teste1");
+
 //
 //
 // function printFile(File) {
